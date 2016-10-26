@@ -8,6 +8,8 @@ $(function() {
 	});
 });
 
+$('#elastislide').elastislide();
+
 $(window).load(function(){
 	var carouselCaptionWidth = $('#carousel-sidebar .active img').width();
 	$('#carousel-sidebar img').each(function(){
